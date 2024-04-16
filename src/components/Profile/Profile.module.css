@@ -1,65 +1,66 @@
 .profile {
-    background-color: #f9f9f9;
-      align-items: center;
-      max-width: 350px;
-      text-align: center;
-      margin: auto;
-      margin-top: 20px;
-      border: 3px solid #333;
-      border-radius: 5px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-       }
-    .divProfile{
-      padding:20px;
-    }
-    
-    .profile img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      margin-bottom: 10px;
-      background-color: #333;
-    }
-  
-    .profile p{
-      margin: 5px 0;
-    }
-    .username,
-    .tag,
-    .location {
-    margin: 0;
-    padding: 0;
-  }
-  
-    
-    .username{
-      font-size: 22px;
-      font-weight: bold;
-    }
-    .tag{
-      font-size: 18px;
-      color: #978d8d;
-    }
-    .location{
-      font-size: 18px;
-      color: #978d8d;
-    }
-    
-   .column {
-      flex: 1;
-      padding: 10px;
-      list-style-type: none;
-      display: flex;
-      justify-content: space-around;
-      background-color: grey;
-    }
-  
-    
-    .bold {
-      font-weight: bold;
-    }
-    .liStyle{
-      flex-direction: column;
-      display: flex;
-      padding: 10px;
-    }
+  background-color: #f9f9f9;
+  align-items: center;
+  max-width: 350px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border: 3px solid #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.divProfile {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.profile p {
+  margin: 5px 0;
+}
+.username,
+.tag,
+.location {
+  margin: 0;
+  padding: 0;
+}
+
+.username {
+  font-size: 26px;
+  font-weight: bold;
+}
+.tag {
+  font-size: 20px;
+  color: #978d8d;
+}
+.location {
+  font-size: 20px;
+  color: #978d8d;
+}
+
+.column {
+  flex: 1;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  background-color: #d9d9d9;
+}
+
+.bold {
+  font-weight: bold;
+}
+.liStyle {
+  flex-direction: column;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 2px solid #595959;
+  border-right: 2px solid #595959;
+  padding: 33px;
+}
